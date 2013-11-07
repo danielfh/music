@@ -60,3 +60,5 @@ $api->connectHook(
 );
 
 $api->addRegularTask('OCA\Music\Backgroundjob\CleanUp', 'run');
+
+$api->registerAdmin('settings/admin');
